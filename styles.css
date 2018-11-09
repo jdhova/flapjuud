@@ -1,0 +1,110 @@
+body {
+    height:100%;
+    width:100%;
+    margin:0;
+    background-image: url("flap.jpeg");
+    background-size: cover;
+
+}
+  
+
+#container {
+    position:relative;
+    height:400px;
+    width: 90%;
+    border:2px solid blue;
+    margin-left: 4%;
+    overflow: hidden;
+    background-image: url("blue-skies.jpg");
+    background-size: cover;
+
+}
+
+#bird {
+    position: absolute;
+    height:42px;
+    width:65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 20%;
+    left: 15%;
+    background-color: transparent;
+}   
+
+#bird img {
+    width: 100%;
+}
+
+#pole img{
+ width: 100%;
+}
+
+
+.pole {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    
+   
+}
+
+.new_pole {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+
+
+}
+
+
+#pole_1 {
+    top: 30%;
+    right: -100px;
+    background-image: url("./zuydd.png");
+    background-size: cover;
+    
+}
+  
+
+
+  #pole_2 {
+    bottom: 35%;
+    right: -200px;
+    background-image: url("./Zuydd.jpg");
+    background-size: cover;
+    
+}
+
+
+
+#pole_3 {
+
+    top: 25%; 
+    right: -300px;
+    background-image: url("./ihack.png");
+    background-size: cover;
+}
+
+
+
+#score_div  {
+    text-align: left;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 25px;
+
+}
+
+#restart_btn {
+    position:absolute;
+    top: 0;
+    width: 50%;
+    padding: 20px;
+    background-color: #777777;
+    border: none;
+    cursor: pointer;
+    display:none;
+
+}
+
